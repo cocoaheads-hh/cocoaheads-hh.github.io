@@ -6,7 +6,7 @@ categories: events
 ---
 
 We're going to have talks.
-Updates will follow.
+Updates will follow. 😎
 
 **When?**
 
