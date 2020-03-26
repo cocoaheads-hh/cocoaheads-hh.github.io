@@ -1,0 +1,82 @@
+version: 2.1
+executors:
+  ruby-executor:
+    docker:
+      - image: circleci/ruby:2.6.4
+
+jobs:
+  install_dependencies:
+    executor: ruby-executor
+    
+    steps:
+      - checkout
+      
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            
+      - run: 
+          name: Install dependencies
+          command : |
+            bundle install --path vendor/bundle
+            
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+          
+  build_website:
+    executor: ruby-executor
+
+    steps:
+      - checkout
+      
+      - restore_cache:
+          name: Restore cached dependencies
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            
+      - run: 
+          name: Link Bundle Dependencies
+          command : |
+            bundle --path vendor/bundle
+
+      - run: 
+          name: Configure BaseURL
+          command : |
+            rm _config_prs.yml
+            echo "baseurl: /${CIRCLE_BUILD_NUM}" >> _config_prs.yml
+
+      - run:
+          name: Create Static Webpage with Jekyll
+          command: |
+            bundle exec jekyll build --config _config.yml,_config_prs.yml
+            
+      - store_artifacts:
+          path: _site
+          destination: site
+
+      - run:
+          name: Print Link to Preview Site
+          command: |
+            echo "https://circleci.com/api/v1.1/project/github/cocoaheads-hh/cocoaheads-hamburg/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html"
+
+      - run:
+          name: Post Message back to CR
+          command: |
+            chmod +x .circleci/post_comment.sh
+            .circleci/post_comment.sh
+
+workflows:
+  version: 2.1
+  build-website-and-store:
+    jobs:
+      - install_dependencies
+      - build_website:
+          requires:
+            - install_dependencies
+          filters:
+            branches:
+              ignore:
+                - master
+      
