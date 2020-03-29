@@ -8,5 +8,5 @@ curl --request POST \
   --url "${PR_API_URL}/comments" \
   --header 'accept: application/vnd.github.v3+json' \
   --header 'content-type: application/json' \
-  -u JoachimK:${GITHUB_ACCESS_TOKEN} \
-  --data "{\"body\": \"You can find the preview for your commit ${CIRCLE_SHA1} hier: http://preview.cocoafrog.de/${CIRCLE_BUILD_NUM}/ \"}" #
+  -u cocoaheads-bot:${GITHUB_ACCESS_TOKEN} \
+  --data "{\"body\": \"You can find the preview for your commit ${CIRCLE_SHA1} hier: http://preview.cocoaheads.hamburg/${CIRCLE_BUILD_NUM}/ \"}" #
