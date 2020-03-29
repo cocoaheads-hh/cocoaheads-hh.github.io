@@ -59,7 +59,7 @@ jobs:
       - run:
           name: Print Link to Preview Site
           command: |
-            echo "https://circleci.com/api/v1.1/project/github/cocoaheads-hh/cocoaheads-hamburg/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html"
+            echo "https://circleci.com/api/v1.1/project/github/cocoaheads-hh/cocoaheads-hh.github.io/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html"
 
       - run:
           name: Post Message back to CR
