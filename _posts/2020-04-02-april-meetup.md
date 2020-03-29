@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "April 2020 - Our first remote meetup! 💪🏼"
-date:   2020-04-02 19:00:00
+date:   2020-03-26 19:00:00
 categories: events
 ---
 
