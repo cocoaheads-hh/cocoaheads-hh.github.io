@@ -9,4 +9,4 @@ curl --request POST \
   --header 'accept: application/vnd.github.v3+json' \
   --header 'content-type: application/json' \
   -u cocoaheads-bot:${GITHUB_ACCESS_TOKEN} \
-  --data "{\"body\": \"You can find the preview for your commit ${CIRCLE_SHA1} hier: http://preview.cocoaheads.hamburg/${CIRCLE_BUILD_NUM}/ \"}" #
+  --data "{\"body\": \"You can find the preview for your commit ${CIRCLE_SHA1} here: http://preview.cocoaheads.hamburg/${CIRCLE_BUILD_NUM}/ \"}" #
