@@ -24,7 +24,7 @@ This is the first time for us organizing something like this, so bare with us!
 
 Also, advices and tipps from you are very welcome! 🙏🏼 
 
-Please find the **Zoom link** on the [meetup page](https://www.meetup.com/de-DE/CocoaHeads-Hamburg/events/zkldgrybcgbdb/) (already) or on Slack (on the day of the meetup). Also see our note on Zoom below.
+Please find the **Zoom link** on the [meetup page](https://www.meetup.com/de-DE/CocoaHeads-Hamburg/events/zkldgrybcgbdb/) (already) or on Slack (on the day of the meetup). Also see our [note on Zoom](#note-on-zoom) below.
 
 **Schedule**
 
