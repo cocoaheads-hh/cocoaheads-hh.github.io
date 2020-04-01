@@ -37,12 +37,14 @@ Join our workspace 'cocoaheadshamburg.slack.com' to enable an easier communicati
 Everyone joins the Zoom session.
 
 19:45 - 1️⃣ Talk: SwiftUI and Firebase - Peter Friese
+
 Firebase is Google's mobile development platform for Android, iOS, and the web. SwiftUI is Apple's user interface toolkit that lets developers design apps in a declarative way. In this session, we will bring the two together and take a look at how easy it is to develop a new application from scratch.
 Peter is a Developer Advocate on the Firebase team at Google, helping developers worldwide to build better apps using Firebase and other technologies.
 
 20:30 - Short Break
 
 20:40 - 2️⃣ Talk: Things I wish I knew before I started working Remote! - Mario Stallone
+
 With the advancements in Video Conferencing solutions and jobs that do not need constant in-person communication, remote work has seen a rise in recent years. I've bene working remotely for the last 2.5 yrs, and I do this for a team that works 9 timezones behind me. In this talk, I'll walk through my journey, while trying to give you a balanced view of the Good and the Bad sides of working remote, and how to overcome some of these issues. In short, these are things I wish I knew before I started working Remote 🙂
 Given the current wfh situation we all are under, I hope that my experience might help you in this situation.
 
