@@ -10,3 +10,4 @@ curl --request POST \
   --header 'content-type: application/json' \
   -u cocoaheads-bot:${GITHUB_ACCESS_TOKEN} \
   --data "{\"body\": \"You can find the preview for your commit ${CIRCLE_SHA1} here: http://preview.cocoaheads.hamburg/${CIRCLE_BUILD_NUM}/ \"}" #
+
