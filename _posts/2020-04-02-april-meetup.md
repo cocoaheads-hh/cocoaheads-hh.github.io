@@ -53,4 +53,3 @@ Given the current wfh situation we all are under, I hope that my experience migh
 **I'm in!**
 
 [Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybcgbdb/)
-
