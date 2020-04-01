@@ -24,8 +24,7 @@ This is the first time for us organizing something like this, so bare with us!
 
 Also, advices and tipps from you are very welcome! 🙏🏼 
 
-Please follow the following zoom link to join the meeting:
-ZOOM LINK WILL BE ADDED HERE
+Please find the **Zoom link** on the [meetup page](https://www.meetup.com/de-DE/CocoaHeads-Hamburg/events/zkldgrybcgbdb/) (already) or on Slack (on the day of the meetup). Also see our [note on Zoom](#note-on-zoom) below.
 
 **Schedule**
 
@@ -53,3 +52,8 @@ Given the current wfh situation we all are under, I hope that my experience migh
 **I'm in!**
 
 [Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybcgbdb/)
+
+#### Note on Zoom
+Zoom has a [history of privacy violations and generally shady behavior](https://twitter.com/dhh/status/1244997990382596096). However, it is also currently the most easy-to-setup tool for a group of our size. We'll look for alternatives for future meetups, but until then, we advise you *not to install Zoom on your Mac*. We believe the iOS client to be sufficiently safe due to sandboxing. You can also [use Zoom just from the browser](https://support.zoom.us/hc/en-us/articles/115005666383-Show-a-Join-from-your-browser-Link) ([requires Chrome, audio doesn't work with Firefox + Safari](https://support.zoom.us/hc/en-us/articles/214629443)).
+
+
