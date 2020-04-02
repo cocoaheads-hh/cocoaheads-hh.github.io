@@ -24,13 +24,13 @@ This is the first time for us organizing something like this, so bare with us!
 
 Also, advices and tipps from you are very welcome! 🙏🏼 
 
-Please find the **Zoom link** on the [meetup page](https://www.meetup.com/de-DE/CocoaHeads-Hamburg/events/zkldgrybcgbdb/) (already) or on Slack (on the day of the meetup). Also see our [note on Zoom](#note-on-zoom) below.
+Please find the **Zoom link** on the [meetup page](https://www.meetup.com/de-DE/CocoaHeads-Hamburg/events/zkldgrybcgbdb/) (already)(you need to RSVP to see it) or on Slack (on the day of the meetup). Also see our [note on Zoom](#note-on-zoom) below.
 
 **Schedule**
 
 19:00 - Virtual "doors" open
 Let's gather in Slack!
-Join our workspace 'cocoaheadshamburg.slack.com' to enable an easier communication.
+Join our workspace 'cocoaheadshamburg.slack.com' to enable an easier communication. [Get an invite here](https://slack.cocoaheads.hamburg).
 
 19:30 - Meeting starts 🎉
 Everyone joins the Zoom session.
