@@ -21,7 +21,7 @@ To keep you all distracted and to be able to talk about our favorite nerd topics
 
 As our last months online event worked very well 🎉 we are going to meet remotely again. We are currently evaluating different video call tools to see which one to use and will update here in time.
 
-Also, advices and tipps from you are very welcome! 🙏🏼
+Also, your tips are very welcome! 🙏🏼
 
 This months event is all about Combine!
 
@@ -31,20 +31,25 @@ This months event is all about Combine!
 
 Let's gather in Slack!
 
-Click here 👉🏼 https://slack.cocoaheads.hamburg
-to join our workspace 'cocoaheadshamburg.slack.com' to enable an easier communication.
+👉🏼 [Click here](https://slack.cocoaheads.hamburg) to join our workspace 'cocoaheadshamburg.slack.com' to enable an easier communication.
 
 19:30 - Meeting starts 🎉
 
 Everyone joins the video call.
 
-19:45 - 1️⃣ Talk: Learning Combine by refactoring a networking layer - Donny Walls
-In this talk Donny will explain the basics of Combine, and how they can be applied to refactor an existing networking layer into one that uses Combine. Attendees will learn about Combine’s Publishers, Subscribers, operators, the Cancellable protocol and more.
+19:45 - 1️⃣ Talk: Learning Combine by refactoring a networking layer - Donny Wals
+
+In this talk Donny will explain the basics of Combine, and how they can be applied to refactor an existing networking layer into one that uses Combine. 
+
+Attendees will learn about Combine’s Publishers, Subscribers, operators, the Cancellable protocol and more.
 
 20:30 - Short Break
 
 20:40 - 2️⃣ Talk: Intro to debugging asynchronous code with Timelane - Marin Todorov
-In this talk Marin will introduce us to Timelane, his custom instrument that gets integrated directly in Xcode and helps you debug async code with Combine or RxSwift. He will cover the basics like installing, getting accustomed to the UI, and some real-life bug fixing with Timelane.
+
+In this talk Marin will introduce us to Timelane, his custom instrument that gets integrated directly in Xcode and helps you debug async code with Combine or RxSwift. 
+
+He will cover the basics like installing, getting accustomed to the UI, and some real-life bug fixing with Timelane.
 
 21:25 - Virtual get together
 
