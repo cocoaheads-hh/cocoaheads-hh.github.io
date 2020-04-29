@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dezember"
+title:  "Dezember 2013"
 date:   2013-12-04 21:20:36
 categories: events
 ---
