@@ -5,7 +5,10 @@ layout: default
 <div class="home">
   
   {{ content }}
-
+  
+  <hr>
+  
+  <h1>Latest Post</h1>
   <ul class="post-list">
     {% assign currentYear = site.time | date: "%Y" %}
     {% for post in site.posts limit:1 %}
