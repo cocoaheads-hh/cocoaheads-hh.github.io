@@ -11,7 +11,7 @@ layout: default
   <hr>
   
   <div class="home-section">
-    <h1>Checkout our latest post / meetup 👇🏼</h1>
+    <h1 class="red-headline">Checkout our latest post / meetup 👇🏼</h1>
   </div>
   <div class="home-section">
     <ul class="post-list">
@@ -33,7 +33,7 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   
   <div class="home-section">
-    <h2>Older posts</h2>
+    <h2 class="red-headline">Older posts</h2>
     <ul class="post-list abbreviated">
       {% assign currentYear = site.time | date: "%Y" %}
       {% for post in site.posts offset:1 %}
@@ -48,7 +48,7 @@ layout: default
   </div>
   
   <div class="home-section">
-    <h2>Archive</h2>
+    <h2 class="red-headline">Archive</h2>
     <ul class="post-list abbreviated">
       {% assign currentYear = site.time | date: "%Y" %}
       {% for post in site.posts %}
