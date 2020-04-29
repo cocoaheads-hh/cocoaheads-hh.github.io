@@ -7,10 +7,7 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% assign currentYear = site.time | date: "%Y" %}
     {% for post in site.posts limit:5 %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear == currentYear %}
         <li>
           <h2>{{ post.title }}</h2>
           <div class="post-meta">
@@ -21,15 +18,11 @@ layout: default
           </div>
 
         </li>
-      {% endif %}
     {% endfor %}
   </ul>
   <h1>Older posts</h1>
   <ul class="post-list abbreviated">
-    {% assign currentYear = site.time | date: "%Y" %}
     {% for post in site.posts offset:5 %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear == currentYear %}
         <li>
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -38,24 +31,6 @@ layout: default
             {{ post.date | date: "%-d.%-m.%-Y" }}
           </div>
         </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  <h1>Archive</h1>
-  <ul class="post-list abbreviated">
-    {% assign currentYear = site.time | date: "%Y" %}
-    {% for post in site.posts %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear != currentYear %}
-        <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-          <div class="post-meta">
-            {{ post.date | date: "%-d.%-m.%-Y" }}
-          </div>
-        </li>
-      {% endif %}
     {% endfor %}
   </ul>
 
