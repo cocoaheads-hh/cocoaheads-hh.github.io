@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "May 2020 - Remote again! 💪🏼"
-date:   2020-04-29 19:00:00
+date:   2020-04-29 12:00:00
 categories: events
 ---
 
