@@ -204,6 +204,7 @@
 
 .post-link {
   display: block;
+  font-size: $base-font-size;
   @include relative-font-size(1.5);
 }
 
