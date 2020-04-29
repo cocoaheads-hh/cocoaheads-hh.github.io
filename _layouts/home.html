@@ -11,7 +11,9 @@ layout: default
   <hr>
   
   <div class="home-section">
-    <h1>Latest Post</h1>
+    <h1>Checkout our latest post / meetup 👇🏼</h1>
+  </div>
+  <div class="home-section">
     <ul class="post-list">
       {% assign currentYear = site.time | date: "%Y" %}
       {% for post in site.posts limit:1 %}
@@ -38,9 +40,7 @@ layout: default
         {% assign postYear = post.date | date: "%Y" %}
         {% if postYear == currentYear %}
           <li>
-            <h4>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h4>
+              <p><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
           </li>
         {% endif %}
       {% endfor %}
@@ -55,9 +55,7 @@ layout: default
         {% assign postYear = post.date | date: "%Y" %}
         {% if postYear != currentYear %}
           <li>
-            <h4>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h4>
+              <p><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
           </li>
         {% endif %}
       {% endfor %}
