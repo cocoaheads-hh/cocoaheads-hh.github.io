@@ -4,56 +4,64 @@ layout: default
 
 <div class="home">
   
+  <div class="home-section">
   {{ content }}
+  </div>
   
   <hr>
   
-  <h1>Latest Post</h1>
-  <ul class="post-list">
-    {% assign currentYear = site.time | date: "%Y" %}
-    {% for post in site.posts limit:1 %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear == currentYear %}
-        <li>
-          <h2>{{ post.title }}</h2>
-          <div class="post-content">
-            {{ post.content }}
-          </div>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  <div class="home-section">
+    <h1>Latest Post</h1>
+    <ul class="post-list">
+      {% assign currentYear = site.time | date: "%Y" %}
+      {% for post in site.posts limit:1 %}
+        {% assign postYear = post.date | date: "%Y" %}
+        {% if postYear == currentYear %}
+          <li>
+            <h2>{{ post.title }}</h2>
+            <div class="post-content">
+              {{ post.content }}
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
   
-  <h2>Older posts</h2>
-  <ul class="post-list abbreviated">
-    {% assign currentYear = site.time | date: "%Y" %}
-    {% for post in site.posts offset:1 %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear == currentYear %}
-        <li>
-          <h4>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h4>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  
-  <h2>Archive</h2>
-  <ul class="post-list abbreviated">
-    {% assign currentYear = site.time | date: "%Y" %}
-    {% for post in site.posts %}
-      {% assign postYear = post.date | date: "%Y" %}
-      {% if postYear != currentYear %}
-        <li>
-          <h4>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h4>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  
+  <div class="home-section">
+    <h2>Older posts</h2>
+    <ul class="post-list abbreviated">
+      {% assign currentYear = site.time | date: "%Y" %}
+      {% for post in site.posts offset:1 %}
+        {% assign postYear = post.date | date: "%Y" %}
+        {% if postYear == currentYear %}
+          <li>
+            <h4>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h4>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="home-section">
+    <h2>Archive</h2>
+    <ul class="post-list abbreviated">
+      {% assign currentYear = site.time | date: "%Y" %}
+      {% for post in site.posts %}
+        {% assign postYear = post.date | date: "%Y" %}
+        {% if postYear != currentYear %}
+          <li>
+            <h4>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h4>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 
 </div>
