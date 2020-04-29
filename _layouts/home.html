@@ -21,31 +21,31 @@ layout: default
     {% endfor %}
   </ul>
   
-  <h1>Older posts</h1>
+  <h2>Older posts</h2>
   <ul class="post-list abbreviated">
     {% assign currentYear = site.time | date: "%Y" %}
     {% for post in site.posts offset:1 %}
       {% assign postYear = post.date | date: "%Y" %}
       {% if postYear == currentYear %}
         <li>
-          <h2>
+          <h4>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
+          </h4>
         </li>
       {% endif %}
     {% endfor %}
   </ul>
   
-  <h1>Archive</h1>
+  <h2>Archive</h2>
   <ul class="post-list abbreviated">
     {% assign currentYear = site.time | date: "%Y" %}
     {% for post in site.posts %}
       {% assign postYear = post.date | date: "%Y" %}
       {% if postYear != currentYear %}
         <li>
-          <h2>
+          <h4>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
+          </h4>
         </li>
       {% endif %}
     {% endfor %}
