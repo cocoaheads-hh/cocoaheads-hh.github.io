@@ -13,9 +13,6 @@ layout: default
       {% if postYear == currentYear %}
         <li>
           <h2>{{ post.title }}</h2>
-          <div class="post-meta">
-            {{ post.date | date: "%-d.%-m.%-Y" }}
-          </div>
           <div class="post-content">
             {{ post.content }}
           </div>
