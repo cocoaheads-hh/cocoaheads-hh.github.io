@@ -5,7 +5,7 @@ date:   2020-04-29 00:00:00
 categories: events
 ---
 
-![CocoaHeads May 2020](../assets/may-2020-banner.png){:class="img-responsive"}
+![CocoaHeads May 2020](/assets/may-2020-banner.png){:class="img-responsive"}
 
 **When?**
 
