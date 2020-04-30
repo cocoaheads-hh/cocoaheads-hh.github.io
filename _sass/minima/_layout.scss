@@ -204,7 +204,8 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  color: black;
+  text-decoration: underline;
 }
 
 
@@ -252,4 +253,19 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+
+/**
+ * Home page sections
+ */
+
+.home-section {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+.red-headline {
+  font-weight: bold;
+  color: #D02C24;
 }
