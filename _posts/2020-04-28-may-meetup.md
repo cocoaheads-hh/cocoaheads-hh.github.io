@@ -5,7 +5,7 @@ date:   2020-04-29 00:00:00
 categories: events
 ---
 
-![CocoaHeads May 2020](/assets/may-2020-banner.png){:class="img-responsive"}
+![CocoaHeads May 2020](../assets/may-2020-banner.png){:class="img-responsive"}
 
 **When?**
 
@@ -41,7 +41,7 @@ Everyone joins the video call.
 
 19:45 - 1️⃣ Talk: Learning Combine by refactoring a networking layer - Donny Wals
 
-In this talk Donny will explain the basics of Combine, and how they can be applied to refactor an existing networking layer into one that uses Combine. 
+In this talk Donny will explain the basics of Combine, and how they can be applied to refactor an existing networking layer into one that uses Combine.
 
 Attendees will learn about Combine’s Publishers, Subscribers, operators, the Cancellable protocol and more.
 
@@ -49,7 +49,7 @@ Attendees will learn about Combine’s Publishers, Subscribers, operators, the C
 
 20:40 - 2️⃣ Talk: Intro to debugging asynchronous code with Timelane - Marin Todorov
 
-In this talk Marin will introduce us to Timelane, his custom instrument that gets integrated directly in Xcode and helps you debug async code with Combine or RxSwift. 
+In this talk Marin will introduce us to Timelane, his custom instrument that gets integrated directly in Xcode and helps you debug async code with Combine or RxSwift.
 
 He will cover the basics like installing, getting accustomed to the UI, and some real-life bug fixing with Timelane.
 
@@ -58,4 +58,3 @@ He will cover the basics like installing, getting accustomed to the UI, and some
 **I'm in!**
 
 [Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybchbkb/)
-
