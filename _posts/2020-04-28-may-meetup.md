@@ -21,7 +21,8 @@ About that, we hope you’re all safe and healthy, as well as you family and fri
 
 To keep you all distracted and to be able to talk about our favorite nerd topics, we’re not going to give up on our monthly meetup! 💪🏼
 
-As our last months online event worked very well 🎉 we are going to meet remotely again. We are currently evaluating different video call tools to see which one to use and will update here in time.
+As our last months online event worked very well 🎉 we are going to meet remotely again. This time we are trying Jitsi. 
+*(once your RSVPed for the [Meetup event](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybchbkb/) you'll be able to see the link in the event location sidebar on Meetup)*
 
 Also, your tips are very welcome! 🙏🏼
 
@@ -58,3 +59,7 @@ He will cover the basics like installing, getting accustomed to the UI, and some
 **I'm in!**
 
 [Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybchbkb/)
+
+
+
+*Note on Jitsi Compatibility*: Jitsi is only officially supported via the iOS apps and Chrome (possibly Android apps, we weren't able to test those). While Safari seemingly works, in our experience Audio is unreliable, with people on Safari sometimes not hearing some participants while at the same time hearing others. For this reason, we recommend you use the iOS apps or Chrome, whatever suits you better.
