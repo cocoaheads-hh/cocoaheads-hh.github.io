@@ -30,9 +30,11 @@ Feel free to join us via Slack, where we'll keep you up-to-date on any immediate
 19:30 - Meeting starts 🎉
 
 19:45 - 1️⃣
+```swift
 let title = Building truly global iOS apps
 let abstract = There are more than 300 million Arabic- and Hebrew-speakers in the world. In this talk I will give you advice so you're ready to tap into those markets and rolling out your app in new markets becomes a breeze.
 let author = ("Patrick Gaißert", "MaibornWolff GmbH")
+```
 
 20:30 - Short Break
 
