@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "June 2020 - Let's talk Combine!"
+title:  "June 2020 - Let's build truly Global and Hyper Apps!"
 date:   2020-06-04 00:00:00
 categories: events
 ---
