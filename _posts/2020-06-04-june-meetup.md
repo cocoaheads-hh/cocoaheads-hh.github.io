@@ -18,7 +18,7 @@ REMOTE!
 We're continuing to keep Cocoaheads online for this month as well 🎉
 We're using Jitsi, this time around as well. 
 
-*(once your RSVP for the [Meetup event](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybchbkb/) you'll be able to see the link in the event location sidebar on Meetup)*
+*(once your RSVP for the [Meetup event](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybcjbgb/) you'll be able to see the link in the event location sidebar on Meetup)*
 
 ⏰ Our schedule ⏰
 
@@ -44,7 +44,7 @@ Benedikt Terhechte will be talking to us about his amazing new app - Hyperdeck -
 Social Video Links (Will be updated at event start)
 **I'm in!**
 
-[Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybchbkb/)
+[Meetup RSVP](https://www.meetup.com/CocoaHeads-Hamburg/events/zkldgrybcjbgb/)
 
 
 
