@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "July 2020"
-date:   2020-07-02 00:00:00
+date:   2020-06-27 00:00:00
 categories: events
 ---
 
