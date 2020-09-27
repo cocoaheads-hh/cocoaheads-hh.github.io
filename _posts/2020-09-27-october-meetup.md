@@ -35,9 +35,9 @@ Feel free to join us via Slack, where we'll keep you up-to-date on any immediate
 Alexander: Silicon Soul: The Machine we must not talk about
 
 Apple introduced the Mac’s transition to ARM64, and thus the fourth CPU architecture after Motorola 68k, PowerPC and Intel.
-Apart from the question what this means for the platform this is a welcome opportunity to look deep beyond the surface of technologies like SwiftUI.
+Apart from the question of what this means for the platform, this is a welcome opportunity to look deep beyond the surface of technologies like SwiftUI.
 Deep below we want to explore how the dynamic loader dyld brings apps to life from files containing machine code. This includes a primer into ARM64 assembler, the language now used on almost all Apple devices.
-Finally there is the question: “Hour does knowing all of this help me in my daily work?”
+Finally, there is the question: “How does knowing all of this help me in my daily work?”
 
 20:30 - Virtual get together
 
