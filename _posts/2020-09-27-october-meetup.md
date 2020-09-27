@@ -32,7 +32,7 @@ Feel free to join us via Slack, where we'll keep you up-to-date on any immediate
 19:30 - Meeting starts 🎉
 
 19:45 - 1️⃣
-Alexander: Silicon Soul: The Machine we must not talk about
+Alexander von Below: Silicon Soul: The Machine we must not talk about
 
 Apple introduced the Mac’s transition to ARM64, and thus the fourth CPU architecture after Motorola 68k, PowerPC and Intel.
 Apart from the question of what this means for the platform, this is a welcome opportunity to look deep beyond the surface of technologies like SwiftUI.
