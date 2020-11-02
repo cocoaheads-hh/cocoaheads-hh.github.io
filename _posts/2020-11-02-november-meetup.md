@@ -17,7 +17,7 @@ Thursday, 01.10.2020, 19:00 onwards
 REMOTE!
 
 We're continuing to keep Cocoaheads online for this month as well 🎉
-We're using Jitsi, this time around as well. 
+Due to the remote nature of the meetup, we're going to continue to keep it to 1 talk to encourage more participation.
 
 *(once your RSVP for the [Meetup event](https://www.meetup.com/CocoaHeads-Hamburg/events/jgthtrybcpbhb/) you'll be able to see the link in the event location sidebar on Meetup)*
 
