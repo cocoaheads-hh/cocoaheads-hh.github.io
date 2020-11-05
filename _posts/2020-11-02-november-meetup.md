@@ -10,7 +10,7 @@ categories: events
 
 **When?**
 
-Thursday, 01.10.2020, 19:00 onwards
+Thursday, 05.11.2020, 19:00 onwards
 
 **Where?**
 
