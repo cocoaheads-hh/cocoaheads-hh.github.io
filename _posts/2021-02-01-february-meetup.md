@@ -9,7 +9,7 @@ categories: events
 
 **When?**
 
-Thursday, 04.02.20201, 19:00 onwards
+Thursday, 04.02.2021, 19:00 onwards
 
 **Where?**
 
